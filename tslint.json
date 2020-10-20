@@ -1,0 +1,57 @@
+{
+    "defaultSeverity": "error",
+    "extends": ["tslint:recommended"],
+    "linterOptions": {
+        "exclude": ["node_modules/**"]
+    },
+    "rules": {
+        "quotemark": [true, "single"],
+        "indent": [true, "spaces", 2],
+        "interface-name": false,
+        "ordered-imports": false,
+        "trailing-comma": false,
+        "object-literal-sort-keys": false,
+        "no-consecutive-blank-lines": false,
+        "semicolon": false,
+        "no-eval": false,
+        "align": false,
+        "class-name": true,
+        "whitespace": false,
+        "max-line-length": false,
+        "object-literal-key-quotes": false,
+        "no-var-requires": false,
+        "comment-format": [true, "check-space"],
+        "no-internal-module": true,
+        "no-unsafe-finally": true,
+
+        "no-var-keyword": true,
+        "no-shadowed-variable": false,
+        "triple-equals": [true, "allow-null-check"],
+        "typedef-whitespace": [
+            true,
+            {
+                "call-signature": "nospace",
+                "index-signature": "nospace",
+                "parameter": "nospace",
+                "property-declaration": "nospace",
+                "variable-declaration": "nospace"
+            }
+        ],
+        "variable-name": [true, "ban-keywords"],
+        "adjacent-overload-signatures": true,
+        "member-access": true,
+        "no-reference": false,
+        "only-arrow-functions": false,
+        "no-any": false,
+        "import-blacklist": [true, "lodash"],
+        "no-arg": true,
+        "no-console": false,
+        "no-conditional-assignment": true,
+        "no-construct": true,
+        "no-duplicate-super": true,
+        "no-duplicate-switch-case": true,
+        "no-return-await": false,
+        "no-string-throw": false,
+        "no-angle-bracket-type-assertion": true
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "outDir": "tmp",
+        "module": "esnext",
+        "target": "es5",
+        "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
+        "types": ["node"],
+        "strict": true,
+        "resolveJsonModule": true,
+        "importHelpers": true,
+        "noUnusedLocals": true,
+        "moduleResolution": "node",
+        "declaration": true,
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "strictNullChecks": false,
+        "noImplicitAny": false,
+        "allowSyntheticDefaultImports": true,
+        "paths": {
+            "@/*": ["src/*"]
+        }
+    },
+    "include": ["src/*", "demo/*"],
+    "exclude": ["node_modules", "tmp", "demo"]
+}
